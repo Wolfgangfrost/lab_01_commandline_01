@@ -8,7 +8,7 @@ Follow the instructions line-by-line.
 * "No output" or "nothing happens" are valid answers to any of the questions.
 ==========
 
-
+nothing
 
 ==========
 1. Open Terminal.  Type:
@@ -18,6 +18,13 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
+Adlm			MPLABXProjects		Things
+Adobe			Movies			ipe.properties
+Applications		Music			isus
+Desktop			New Unity Project	pymel.log
+Documents		Pictures		xgen
+Downloads		Public
+Library			QLData
 
 
 ==========
@@ -27,19 +34,19 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+it lists desktop,documents, and downloads
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
 
-
+same thing as above
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+No such file or directory
 
 
 ==========
@@ -50,7 +57,8 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+drwxr-x---   2 student  staff    68 Aug 22  2016 Adlm
+drwxr-xr-x   3 student  staff   102 Aug 22  2016 Adobe
 
 ==========
 4.  Type:
@@ -59,7 +67,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.			Avid Projects		Processing
+..			Fritzing		REAPER Media
 
 
 ==========
@@ -71,7 +80,7 @@ What command was repeated?
 ----------
 
 
-
+ The -a Documents command
 ==========
 6.  Type:
 
@@ -79,7 +88,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+same thing as above
 
 
 ==========
@@ -89,7 +98,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+is/Volumes
 
 
 ==========
@@ -100,38 +109,39 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+ls: doesnotexist: No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+<up>
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+-a
+-l
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+<Tab>
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
 
-
+ls to list stuff
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
 
-
+Documents 
 ==========
 14.  Type:
 
@@ -140,7 +150,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 15.  Type:
@@ -150,7 +160,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -159,3 +169,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+ls= list
+-a= flag
+Desktop= argument
+prompt= $
