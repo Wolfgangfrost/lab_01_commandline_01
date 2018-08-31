@@ -32,7 +32,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/Users/student/mtec1002
 
 ==========
 5. Type:
@@ -42,7 +42,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals
 
 
 ==========
@@ -54,7 +54,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals	food
 
 ==========
 7. Type:
@@ -64,7 +64,8 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+ 
+animals	foo	food
 
 
 ==========
@@ -75,7 +76,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar/baz/qux
 
 
 ==========
@@ -86,7 +87,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar
 
 
 ==========
@@ -97,7 +98,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+Users/student/mtec1002/foo/bar/baz/qux
 
  
 ==========
@@ -109,7 +110,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/student/mtec1002
 
 ==========
 12. Type:
@@ -120,7 +121,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
+drwxr-xr-x  3 student  staff  102 Aug 31 16:51 foo
+drwxr-xr-x  2 student  staff   68 Aug 31 16:41 food
 
 
 ==========
@@ -131,7 +133,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/users/student
 
 
 ==========
@@ -143,7 +145,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Volumes
 
 ==========
 15. Type:
@@ -154,7 +156,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Volumes
 
 ==========
 15. Type:
@@ -165,7 +167,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Users/student/mtec1002
 
 ==========
 16. Type:
@@ -175,13 +177,13 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
+ent-v314-014.local
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+pwd <enter>
 
 ==========
 17b. If you're not in the right directory, type the following command:
@@ -204,7 +206,7 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
-
+mkdir -p lemon/strawbery/orange/pineapple
 
 ==========
 19. Make another directory called aardvark.  
